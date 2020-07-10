@@ -105,7 +105,7 @@ function getBotAttrs (props, next) {
   const latestVersion = '$LATEST'
   const BotParams = {
     name: props.name,
-    version: latestVersion
+    versionOrAlias: latestVersion
   }
   console.log('Accessing current slot version with getBot: %j', BotParams)
   LexModelBuildingService.getBot(BotParams, function (err, BotData) {
