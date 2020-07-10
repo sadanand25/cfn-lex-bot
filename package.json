@@ -1,6 +1,6 @@
 {
   "name": "cfn-lex-bot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "AWS CloudFormation Custom Lambda Resource | AWS Lex Bot",
   "main": "index.js",
   "scripts": {
