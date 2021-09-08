@@ -16,7 +16,7 @@ AWS CloudFormation does not support Amazon Lex / AWS Lex. This is a Lambda-backe
 This Lambda makes use of the Lambda-Backed CloudFormation Custom Resource flow module, `cfn-lambda` ([GitHub](https://github.com/andrew-templeton/cfn-lambda) / [NPM](https://www.npmjs.com/package/cfn-lambda)).
 
 
-## Installation
+## Installation#
 
 This package uses `cfn-lambda` ([GitHub](https://github.com/andrew-templeton/cfn-lambda) / [NPM](https://www.npmjs.com/package/cfn-lambda)) Launcher Pages, so you can install this in your AWS Account without downloading anything! Just visit my (the maintainer) Launch Page and click Launch on the `us-east-1` region. It only supports installation in the `us-east-1` region right now, since that's the only AWS region Amazon Lex is supported in right now.
 
